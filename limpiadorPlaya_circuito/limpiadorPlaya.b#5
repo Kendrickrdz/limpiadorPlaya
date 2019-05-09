@@ -542,83 +542,29 @@ LED-RGB-CC</description>
 </package3d>
 </packages3d>
 </library>
-<library name="SparkFun-Resistors" urn="urn:adsk.eagle:library:532">
-<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
-This library contains resistors. Reference designator:R. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<library name="OPL_Sensor-Transducer" urn="urn:adsk.eagle:library:8004923">
+<description>Seeed Open Parts Library (OPL) for the Seeed Fusion PCB Assembly Service</description>
 <packages>
-<package name="1206" urn="urn:adsk.eagle:footprint:39619/1" library_version="1">
-<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-2.4" y1="1.1" x2="2.4" y2="1.1" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="-1.1" x2="-2.4" y2="-1.1" width="0.0508" layer="39"/>
-<wire x1="-2.4" y1="-1.1" x2="-2.4" y2="1.1" width="0.0508" layer="39"/>
-<wire x1="2.4" y1="1.1" x2="2.4" y2="-1.1" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<package name="SNR2-3.0" urn="urn:adsk.eagle:footprint:8004964/1" library_version="2">
+<wire x1="2.4384" y1="0.4064" x2="2.4384" y2="-0.4064" width="0.127" layer="21"/>
+<wire x1="2.4384" y1="-0.4064" x2="0.6604" y2="-2.1844" width="0.127" layer="21" curve="-90"/>
+<wire x1="0.6604" y1="-2.1844" x2="-0.6604" y2="-2.1844" width="0.127" layer="21"/>
+<wire x1="-0.6604" y1="-2.1844" x2="-2.4384" y2="-0.4064" width="0.127" layer="21" curve="-90"/>
+<wire x1="-2.4384" y1="-0.4064" x2="-2.4384" y2="0.4064" width="0.127" layer="21"/>
+<wire x1="-2.4384" y1="0.4064" x2="-0.6604" y2="2.1844" width="0.127" layer="21" curve="-90"/>
+<wire x1="-0.6604" y1="2.1844" x2="0.6604" y2="2.1844" width="0.127" layer="21"/>
+<wire x1="0.6604" y1="2.1844" x2="2.4384" y2="0.4064" width="0.127" layer="21" curve="-90"/>
+<pad name="1" x="-1.651" y="0" drill="0.762" diameter="1.397" shape="square"/>
+<pad name="2" x="1.651" y="0" drill="0.762" diameter="1.397"/>
+<text x="-2.54" y="2.54" size="0.889" layer="25" ratio="11">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="0.889" layer="27" ratio="11">&gt;VALUE</text>
+<rectangle x1="-2.4384" y1="-2.1844" x2="2.4384" y2="2.1844" layer="39"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:39654/1" type="box" library_version="1">
-<description>Generic 3216 (1206) package
-0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<package3d name="SNR2-3.0" urn="urn:adsk.eagle:package:8005023/1" type="box" library_version="2">
 <packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
-<library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
-<description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
-This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="DUMMY" urn="urn:adsk.eagle:footprint:37006/1" library_version="1">
-<description>&lt;h3&gt;Dummy Footprint&lt;/h3&gt;
-&lt;p&gt;NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.&lt;/p&gt;
-
-&lt;p&gt;Devices using:
-&lt;ul&gt;&lt;li&gt;BADGERHACK_LOGO&lt;/li&gt;
-&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-</package>
-</packages>
-<packages3d>
-<package3d name="DUMMY" urn="urn:adsk.eagle:package:37104/1" type="box" library_version="1">
-<description>Dummy Footprint
-NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.
-
-Devices using:
-BADGERHACK_LOGO
-FRAME-LETTER</description>
-<packageinstances>
-<packageinstance name="DUMMY"/>
+<packageinstance name="SNR2-3.0"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -861,59 +807,43 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-21.59" y="86.487" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="-21.59" y="83.693" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
-<element name="M3" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" package="1X03" package3d_urn="urn:adsk.eagle:package:38562/1" value="SERVO" x="149.86" y="81.28" smashed="yes">
-<attribute name="NAME" x="148.59" y="82.677" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="148.59" y="79.883" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
+<element name="M3" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" package="1X03" package3d_urn="urn:adsk.eagle:package:38562/1" value="SERVO" x="157.48" y="81.28" smashed="yes">
+<attribute name="NAME" x="156.21" y="82.677" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="156.21" y="79.883" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
-<element name="M4" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" package="1X03" package3d_urn="urn:adsk.eagle:package:38562/1" value="SERVO" x="149.86" y="67.31" smashed="yes">
-<attribute name="NAME" x="148.59" y="68.707" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="148.59" y="65.913" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
+<element name="M4" library="SparkFun-Electromechanical" library_urn="urn:adsk.eagle:library:516" package="1X03" package3d_urn="urn:adsk.eagle:package:38562/1" value="SERVO" x="157.48" y="66.04" smashed="yes">
+<attribute name="NAME" x="156.21" y="67.437" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="156.21" y="64.643" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
-<element name="LED1" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="0603-GREEN" package3d_urn="urn:adsk.eagle:package:5829989/8" value="LED-GREEN0603" x="-21.59" y="6.35" smashed="yes">
-<attribute name="NAME" x="-22.2885" y="5.461" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-20.5105" y="5.334" size="0.4064" layer="27" rot="R90"/>
+<element name="LED1" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="0603-GREEN" package3d_urn="urn:adsk.eagle:package:5829989/8" value="LED-GREEN0603" x="-30.48" y="-17.78" smashed="yes">
+<attribute name="NAME" x="-31.1785" y="-18.669" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-29.4005" y="-18.796" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="D1" library="OPL_Optoelectronics" library_urn="urn:adsk.eagle:library:8004780" package="LED4-2.0-D8.0MM" package3d_urn="urn:adsk.eagle:package:8004830/1" value="CZXR-80RGB03-A" x="29.21" y="-13.97" smashed="yes">
-<attribute name="MPN" value="CZXR-80RGB03-A" x="29.21" y="-13.97" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="28.575" y="-14.097" size="0.254" layer="33" ratio="10"/>
-<attribute name="NAME" x="26.67" y="-9.398" size="0.889" layer="25" ratio="11"/>
-<attribute name="VALUE" x="26.67" y="-12.7" size="0.889" layer="27" ratio="11"/>
+<element name="D1" library="OPL_Optoelectronics" library_urn="urn:adsk.eagle:library:8004780" package="LED4-2.0-D8.0MM" package3d_urn="urn:adsk.eagle:package:8004830/1" value="CZXR-80RGB03-A" x="-36.83" y="-15.24" smashed="yes">
+<attribute name="MPN" value="CZXR-80RGB03-A" x="-36.83" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-39.37" y="-10.668" size="0.889" layer="25" ratio="11"/>
+<attribute name="NAME" x="-37.465" y="-15.367" size="0.254" layer="33" ratio="10"/>
+<attribute name="VALUE" x="-39.37" y="-13.97" size="0.889" layer="27" ratio="11"/>
 </element>
-<element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-RGB-THRU" package3d_urn="urn:adsk.eagle:package:39368/1" value="CLEAR" x="-22.86" y="-11.43" smashed="yes" rot="R270">
-<attribute name="NAME" x="-21.2725" y="-11.43" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-08418" x="-22.86" y="-11.43" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-25.7175" y="-11.43" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-RGB-THRU" package3d_urn="urn:adsk.eagle:package:39368/1" value="CLEAR" x="-44.45" y="-16.51" smashed="yes">
+<attribute name="NAME" x="-44.45" y="-13.6525" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-08418" x="-44.45" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-44.45" y="-19.3675" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="LED2" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="0603-GREEN" package3d_urn="urn:adsk.eagle:package:5829989/8" value="LED-GREEN0603" x="-26.67" y="-82.55" smashed="yes">
-<attribute name="NAME" x="-27.3685" y="-83.439" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-25.5905" y="-83.566" size="0.4064" layer="27" rot="R90"/>
+<element name="U1" library="OPL_Sensor-Transducer" library_urn="urn:adsk.eagle:library:8004923" package="SNR2-3.0" package3d_urn="urn:adsk.eagle:package:8005023/1" value="PHOTORESISTOR-5528-10K" x="-50.8" y="-16.51" smashed="yes">
+<attribute name="MPN" value="PHOTORESISTOR-5528-10K" x="-50.8" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-53.34" y="-13.97" size="0.889" layer="25" ratio="11"/>
+<attribute name="VALUE" x="-53.34" y="-19.685" size="0.889" layer="27" ratio="11"/>
 </element>
-<element name="LED3" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="0603-GREEN" package3d_urn="urn:adsk.eagle:package:5829989/8" value="LED-GREEN0603" x="-26.67" y="-88.9" smashed="yes">
-<attribute name="NAME" x="-27.3685" y="-89.789" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-25.5905" y="-89.916" size="0.4064" layer="27" rot="R90"/>
+<element name="U2" library="OPL_Sensor-Transducer" library_urn="urn:adsk.eagle:library:8004923" package="SNR2-3.0" package3d_urn="urn:adsk.eagle:package:8005023/1" value="PHOTORESISTOR-5528-10K" x="-57.15" y="-16.51" smashed="yes">
+<attribute name="MPN" value="PHOTORESISTOR-5528-10K" x="-57.15" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-59.69" y="-13.97" size="0.889" layer="25" ratio="11"/>
+<attribute name="VALUE" x="-59.69" y="-19.685" size="0.889" layer="27" ratio="11"/>
 </element>
-<element name="LED4" library="BeagleBone_Blue_R3" library_urn="urn:adsk.eagle:library:5828899" package="0603-GREEN" package3d_urn="urn:adsk.eagle:package:5829989/8" value="LED-GREEN0603" x="-26.67" y="-95.25" smashed="yes">
-<attribute name="NAME" x="-27.3685" y="-96.139" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-25.5905" y="-96.266" size="0.4064" layer="27" rot="R90"/>
-</element>
-<element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value=" " x="-25.4" y="-99.06" smashed="yes">
-<attribute name="NAME" x="-25.4" y="-97.917" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value=" " x="-25.4" y="-99.06" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-25.4" y="-100.203" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value=" " x="-25.4" y="-104.14" smashed="yes">
-<attribute name="NAME" x="-25.4" y="-102.997" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value=" " x="-25.4" y="-104.14" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-25.4" y="-105.283" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="1206" package3d_urn="urn:adsk.eagle:package:39654/1" value=" " x="-25.4" y="-109.22" smashed="yes">
-<attribute name="NAME" x="-25.4" y="-108.077" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value=" " x="-25.4" y="-109.22" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-25.4" y="-110.363" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" package="DUMMY" package3d_urn="urn:adsk.eagle:package:37104/1" value="FRAME-LETTERNO_PACKAGE" x="-27.94" y="-111.76" smashed="yes">
-<attribute name="DESIGNER" value="Carolina Contreras" x="-27.94" y="-111.76" size="1.778" layer="27" display="off"/>
-<attribute name="VERSION" value="v01" x="-27.94" y="-111.76" size="1.778" layer="27" display="off"/>
+<element name="U3" library="OPL_Sensor-Transducer" library_urn="urn:adsk.eagle:library:8004923" package="SNR2-3.0" package3d_urn="urn:adsk.eagle:package:8005023/1" value="PHOTORESISTOR-5528-10K" x="-63.5" y="-16.51" smashed="yes">
+<attribute name="MPN" value="PHOTORESISTOR-5528-10K" x="-63.5" y="-16.51" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-66.04" y="-13.97" size="0.889" layer="25" ratio="11"/>
+<attribute name="VALUE" x="-66.04" y="-19.685" size="0.889" layer="27" ratio="11"/>
 </element>
 </elements>
 <signals>
@@ -932,8 +862,6 @@ design rules under a new name.</description>
 <contactref element="J_ULTRASONIC_2" pad="GND"/>
 <contactref element="M3" pad="3"/>
 <contactref element="M4" pad="3"/>
-<wire x1="154.94" y1="67.31" x2="154.94" y2="81.28" width="0" layer="19" extent="1-1"/>
-<wire x1="123.19" y1="87.63" x2="154.94" y2="81.28" width="0" layer="19" extent="1-1"/>
 <wire x1="120.65" y1="87.63" x2="123.19" y2="87.63" width="0" layer="19" extent="1-1"/>
 <wire x1="73.66209375" y1="90.043678125" x2="120.65" y2="87.63" width="0" layer="19" extent="1-1"/>
 <wire x1="25.4" y1="90.17" x2="73.66209375" y2="90.043678125" width="0" layer="19" extent="1-1"/>
@@ -944,6 +872,8 @@ design rules under a new name.</description>
 <wire x1="81.28" y1="-12.7" x2="48.26" y2="-16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="139.7" y1="2.54" x2="81.28" y2="-12.7" width="0" layer="19" extent="1-1"/>
 <wire x1="142.24" y1="2.54" x2="139.7" y2="2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="162.56" y1="81.28" x2="45.72" y2="-16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="162.56" y1="66.04" x2="162.56" y2="81.28" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="ARDUINO_NANO1" pad="15"/>
@@ -1069,21 +999,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$10">
 <contactref element="D2" pad="1"/>
-<contactref element="R1" pad="2"/>
-<wire x1="-22.86" y1="-13.335" x2="-24" y2="-99.06" width="0" layer="19" extent="1-1"/>
+<contactref element="U1" pad="2"/>
+<wire x1="-42.545" y1="-16.51" x2="-49.149" y2="-16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="D2" pad="4"/>
-<contactref element="R2" pad="2"/>
-<wire x1="-22.86" y1="-9.525" x2="-24" y2="-104.14" width="0" layer="19" extent="1-1"/>
+<contactref element="U2" pad="2"/>
+<wire x1="-46.355" y1="-16.51" x2="-55.499" y2="-16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="D2" pad="3"/>
-<contactref element="R3" pad="2"/>
-<wire x1="-22.86" y1="-10.795" x2="-24" y2="-109.22" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$13">
-<contactref element="ARDUINO_NANO1" pad="30"/>
+<contactref element="U3" pad="2"/>
+<wire x1="-45.085" y1="-16.51" x2="-61.849" y2="-16.51" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
