@@ -9,7 +9,7 @@ void adelante(int vel, int vel2){
   //digitalWrite(ledazul,HIGH);
     }
 
-void derecha(int vel, int vel2){
+void izquierda(int vel, int vel2){
     analogWrite(ena, vel);
     analogWrite(enb, vel2);
     digitalWrite(in1,LOW);
@@ -32,7 +32,7 @@ void atras(int vel, int vel2){
   digitalWrite(ledamarillo,LOW);
     }
 
-void izquierda(int vel, int vel2, int t){
+void derecha(int vel, int vel2){
     analogWrite(ena, vel);
     analogWrite(enb, vel2);
     digitalWrite(in1,HIGH);
